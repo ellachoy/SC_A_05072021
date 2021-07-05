@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+nav ul {
+  background-color: gold;
+  list-style-type: none;
+  /* width: 50%; */
+  margin-left: auto;
+  padding-left: auto;
+  font-size: 20px;
+  text-align: right;
+  padding: 15px;
+}
+nav ul li {
+  display: inline;
+  margin: 20px;
+  padding: 30px;
+}
+nav ul li:last-child {
+  margin-right: 40px;
+}
+article {
+  border: 1px solid black;
+  display: inline-block;
+  width: 40%;
+  margin-left: 6px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+article h3 {
+  display: none;
+}
+/* von Annas noch mal check */
+div {
+  height: 40px;
+  background: gold;
+  width: 50%;
+  /* margin: 0 auto; */
+  margin-left: auto;
+}
+article {
+  border: 1px solid #000;
+  background: lightblue;
+  width: 40%;
+  display: inline-block;
+  margin-left: 6%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
